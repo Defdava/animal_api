@@ -1,9 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/hewan.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/api/hewan.js" }
-  ]
+  "version": 3,
+  "framework": null
 }
